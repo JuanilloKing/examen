@@ -484,8 +484,7 @@ $diasFaltantes = Carbon::now()->diffInDays($fechaFutura); //num de dias que falt
 
 
 
-
-
+TODOS LOS COMANDOS JUNTOS 
 `echo Introduce el nombre del proyecto:`
 `read proyecto`
 
@@ -505,3 +504,6 @@ $diasFaltantes = Carbon::now()->diffInDays($fechaFutura); //num de dias que falt
 `sudo -u postgres createuser -P $bbdd && `
 `sudo -u postgres createdb -O $bbdd $bbdd && `
 `code .`
+
+
+Para cambiar nombre a tabla cambiar lo siguiente:
